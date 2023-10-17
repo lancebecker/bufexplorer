@@ -68,6 +68,18 @@ This plugin can also be found at http://www.vim.org/scripts/script.php?script_id
 
         git clone https://github.com/jlanzarotta/bufexplorer.git ~/.vim/bundle/bufexplorer.vim
 
+### Lazy
+1. Add the following configuration to your `lazy.lua` configuration.
+
+```lua
+    {
+        'jlanzarotta/bufexplorer',
+        keys = {
+            { "<leader>be", "<cmd>BufExplorer<cr>", desc = "BufExplorer" },
+        }
+    },
+  ```
+
 ## License
 Copyright (c) 2001-2023, Jeff Lanzarotta
 
